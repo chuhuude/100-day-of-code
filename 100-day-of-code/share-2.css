@@ -1,0 +1,90 @@
+/* Header */
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    background-color:rgb(164, 133, 92)
+}
+
+ul {
+    list-style: none;
+    background-color: red;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 60px;
+}
+
+/* Logo */
+#page-logo a{
+    /* background-color: palevioletred; */
+    padding: 10px;
+    font-family: "Oleo scrip", sans-serif;
+    color: rgb(238, 238, 105);
+    font-size: 50px;
+    text-decoration: none;
+    text-transform:uppercase;
+    text-shadow: 3px 3px 4px black;
+}
+
+/* List */
+header ul{
+    display: flex;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+/* Hero */
+#hero {
+    height: 600px;
+    background-image:  url("image/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content{
+    width: 800px;
+    /*  */
+    background-color: rgba(0, 0, 0, 0.497);
+    box-shadow: 2px 4px 8px rgb(48, 41, 41);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+}
+
+#hero-content h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Quicksand" sans-serif;
+    margin: 0;
+}
+
+#hero-content p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#hero-content a{
+    text-decoration: none;
+    background-color: gold;
+    padding: 12px 24px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    margin-bottom: 30px;
+}
+
+#hero-content a:hover{
+    background-color: rgb(234, 198, 17);
+} 
