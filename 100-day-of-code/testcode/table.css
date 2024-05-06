@@ -1,0 +1,20 @@
+table{
+    font-family:"Quicksand", sans-serif;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+
+th, td{
+    border: 1px solid red;
+    padding: 10PX;
+}
+
+th {
+    font-size: 24px;
+    color: red;
+
+}
+span{
+    color: gold;
+}
